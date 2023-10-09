@@ -7,20 +7,17 @@
 </head>
 <body>
     <form>
-        <fieldset>
-            <legend>Üyelik Bilgileri</legend><!--Çevre baslıgı-->
-        <label>Ad Soyad : </label>
-         <input type="text" name="adSoyad" required="required"> <br/><br/>
-         <label>e-Posta : </label>
-         <input type="email" name="ePosta" required="required"> <br/><br/>
-        <button type="submit"value="Gönder">
-        <label>Doğum Tarihi : </label>
-            <input type="date" name="dogumtarihi" required="required"> <br/><br/>
-        <button type="button">Gönder</button>
-        <button type="button">Sil</button>
-        
-        </button>
-        </fieldset>
+        <form>
+            <fieldset>
+            <legend>Yorum Gönder</legend>
+             <label>e-Posta:</label> 
+             <input type="text" tabindex="1"/>
+             <label>Yorum:</label> 
+             <textarea rows="3" cols="20" tabindex="2"></textarea> <br/><br/><!--geniş yazı yazabilecegimiz yeri olusşturu-->
+             <input type="submit"value="Gönder"/>
+             <input type="reset" value="Temizle"/>
+            </fieldset>
+            </form>
     </form>
     
         
