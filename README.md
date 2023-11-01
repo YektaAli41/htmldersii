@@ -1,4 +1,4 @@
-# yektaligultekin_72_11b
+# sinavahazirlik
 
 A new Flutter project.
 
